@@ -13,6 +13,6 @@ In some cases, an attacker might be able to write to arbitrary files on the serv
 
 Imagine a shopping application that displays images of items for sale. This might load an images using the following HTML:
 
-* <img src="/loadImage?filename=218.png"> 
+* &lt;img src="/loadImage?filename=218.png"&gt;
 
 The **loadImage** URL takes a **filename** 
